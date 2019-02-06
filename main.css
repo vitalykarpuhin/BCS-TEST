@@ -1,0 +1,128 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.offer-group{
+    display: flex;
+   
+}
+.offer{
+    max-height: 217px;
+    max-width: 33.3%; 
+}
+.of-bg_first{
+ background: url(img/summer_Germa_1.png) no-repeat;
+}
+.of-bg_second{
+ background: url(img/summer_Germa_1.png) no-repeat;
+}
+.of-bg_third{
+ background: url(img/summer_Germa_1.png) no-repeat;
+
+}
+.offer:hover{
+ opacity: 0.9;
+}
+.offer-block{
+ margin: auto;
+ padding: 40px;
+  
+}
+hr{
+    width: 30%;
+    margin-right: 300px;
+    height: 2px;
+    background: #03bcc2;
+}
+.offer-block p, span{
+  color: aliceblue; 
+  
+    font-size: 1.3em;  
+}
+.offer-block span{
+   color: #f3ec52;
+    font-size: 0.7em
+}
+
+
+#content{
+ background: -webkit-linear-gradient(280deg, white, #00bbc5, blue);
+ background: -o-linear-gradient(280deg, white, #00bbc5, blue);
+ background: -moz-linear-gradient(280deg, white, #00bbc5, blue);
+ background: -ms-linear-gradient(280deg, white, #00bbc5, blue);
+ background: linear-gradient(280deg, white, #00bbc5, blue);
+ padding: 20px; 
+ display: flex;
+}
+#content div{
+    margin-top: 150px;
+}
+#content p{
+    padding: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+#course{
+    background: #efeeed;
+   display: flex;
+   
+}
+
+#course p{
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+}
+#course p:last-child{
+  color: #35bec4; 
+}
+.left{
+    max-width: 392px;
+    padding: 20px 20px;
+}
+.left hr{
+    float: left;
+    margin-top: 5px;
+}
+.right{
+    width: 100%;
+}
+td{
+    font-size: 13px;
+    font-weight: bold;
+}
+.btn{
+    margin: auto;
+    width: 100%;
+}
+
+.btn button{
+  width: 458px;
+    text-transform: uppercase;
+    background: yellow;
+    border: none;
+    border-radius: 4px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.btn button:hover{
+    cursor: pointer;
+    transition: 1s ease;
+    background: #efeeed;
+    border: 1px solid #35bec4;
+}
+@media screen and (max-width: 700px){
+ .offer-group,  #content, #course{
+    display: block;
+}
+.offer{
+ max-width: 340px; 
+ margin: auto;
+}
+#content div{
+    margin-top: 5px;
+    text-align: center;
+}
+.btn button{
+    width: auto
+}
+}
